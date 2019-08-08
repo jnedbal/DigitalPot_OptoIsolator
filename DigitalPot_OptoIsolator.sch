@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:DigitalPot_OptoIsolator-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Optocoupler for digital pot"
+Date "2019-08-08"
+Rev "v1.1"
+Comp "King's College London"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -687,28 +687,6 @@ F 1 "3.2mm" H 8850 4850 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 8850 5000 50  0001 C CNN
 F 3 "~" H 8850 5000 50  0001 C CNN
 	1    8850 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5D374824
-P 9200 5000
-F 0 "H3" H 9200 5150 50  0000 C CNN
-F 1 "3.2mm" H 9200 4850 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9200 5000 50  0001 C CNN
-F 3 "~" H 9200 5000 50  0001 C CNN
-	1    9200 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5D374AEC
-P 9550 5000
-F 0 "H4" H 9550 5150 50  0000 C CNN
-F 1 "3.2mm" H 9550 4850 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9550 5000 50  0001 C CNN
-F 3 "~" H 9550 5000 50  0001 C CNN
-	1    9550 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
