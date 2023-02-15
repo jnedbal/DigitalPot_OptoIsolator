@@ -620,45 +620,45 @@ SCK_OUT
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5D372A24
-P 8600 4250
-F 0 "H1" H 8600 4400 50  0000 C CNN
-F 1 "3.2mm" H 8600 4100 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8600 4250 50  0001 C CNN
-F 3 "~" H 8600 4250 50  0001 C CNN
-	1    8600 4250
+P 8250 3900
+F 0 "H1" H 8250 4050 50  0000 C CNN
+F 1 "3.2mm" H 8250 3750 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8250 3900 50  0001 C CNN
+F 3 "~" H 8250 3900 50  0001 C CNN
+	1    8250 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5D3741F9
-P 8950 4250
-F 0 "H2" H 8950 4400 50  0000 C CNN
-F 1 "3.2mm" H 8950 4100 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8950 4250 50  0001 C CNN
-F 3 "~" H 8950 4250 50  0001 C CNN
-	1    8950 4250
+P 8600 3900
+F 0 "H2" H 8600 4050 50  0000 C CNN
+F 1 "3.2mm" H 8600 3750 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8600 3900 50  0001 C CNN
+F 3 "~" H 8600 3900 50  0001 C CNN
+	1    8600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5D374824
-P 9300 4250
-F 0 "H3" H 9300 4400 50  0000 C CNN
-F 1 "3.2mm" H 9300 4100 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9300 4250 50  0001 C CNN
-F 3 "~" H 9300 4250 50  0001 C CNN
-	1    9300 4250
+P 8250 4300
+F 0 "H3" H 8250 4450 50  0000 C CNN
+F 1 "3.2mm" H 8250 4150 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8250 4300 50  0001 C CNN
+F 3 "~" H 8250 4300 50  0001 C CNN
+	1    8250 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5D374AEC
-P 9650 4250
-F 0 "H4" H 9650 4400 50  0000 C CNN
-F 1 "3.2mm" H 9650 4100 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9650 4250 50  0001 C CNN
-F 3 "~" H 9650 4250 50  0001 C CNN
-	1    9650 4250
+P 8600 4300
+F 0 "H4" H 8600 4450 50  0000 C CNN
+F 1 "3.2mm" H 8600 4150 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8600 4300 50  0001 C CNN
+F 3 "~" H 8600 4300 50  0001 C CNN
+	1    8600 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -714,4 +714,18 @@ Text Notes 9200 1300 0    79   ~ 0
 DIGITAL\nPOTENTIOMETER
 Text Notes 1100 4700 0    79   ~ 0
 MCP CONTROL UNIT
+Wire Notes Line
+	1200 4550 9150 4550
+Wire Notes Line
+	9150 4550 9150 900 
+Wire Notes Line
+	9150 900  3500 900 
+Wire Notes Line
+	1200 1700 1200 4550
+Text Notes 3500 900  0    50   ~ 0
+Diecast Aluminium Enclosure 31 mm, 55.5 mm, 41 mm, Farnell, MC001135
+Wire Notes Line
+	3500 900  3500 1700
+Wire Notes Line
+	3500 1700 1200 1700
 $EndSCHEMATC
